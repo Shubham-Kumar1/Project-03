@@ -1,0 +1,16 @@
+{
+  "name": "project-03",
+  "version": "1.0.0",
+  "description": "A Fully Fledged Mern Stack project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Shubham",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.1.0"
+  }
+}
