@@ -10,9 +10,6 @@ const asyncHandler = (requestHandler) => {
 // Exporting the asyncHandler function for use in other parts of the application
 export { asyncHandler };
 
-
-
-
 // Method2 to do the same but using try catch instead of promises
 
 // const asyncHandler = (fn)=> async (req,res,next)=>{
