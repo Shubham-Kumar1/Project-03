@@ -7,6 +7,7 @@ class ApiResponse {
         this.data = data; // Response data
         this.message = message; // Response message (defaulted to "Success")
         this.success = statusCode < 400; // Indicator of successful operation (status code less than 400)
+        
     }
 }
 
