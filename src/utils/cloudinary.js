@@ -23,7 +23,8 @@ const uploadOnCloudinary = async (localFilePath) => {
         });
 
         // Logging a success message if the file is uploaded successfully
-        console.log("File is uploaded on Cloudinary!", response.url);
+        // console.log("File is uploaded on Cloudinary!", response.url);
+        fs.unlinkSync(localFilePath)
 
         // Returning the Cloudinary response
         return response;
